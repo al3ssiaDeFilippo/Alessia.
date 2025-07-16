@@ -3,7 +3,7 @@
 Welcome to the source code of my personal portfolio!  
 This website is built to present who I am, what I do, and showcase some of my academic projects. It also includes contact information and insights into my passions and values.
 
-🌐 [Visit the live site here](https://al3ssiaDeFilippo.github.io/Alessia)
+🌐 [Visit the live site here](https://al3ssiaDeFilippo.github.io/Alessia./)
 
 > ⚠️ This portfolio is a **work in progress** — I’m actively improving sections, adding content, and refining the design.
 
