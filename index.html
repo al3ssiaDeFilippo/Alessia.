@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alessia De Filippo - Portfolio</title>
+  <meta name="description" content="Personal portfolio of Alessia De Filippo, Computer Science student and frontend design enthusiast." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">Alessia<span class="logo-accent">.</span></a>
+      <ul class="nav-list">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">What I Do</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#timeline" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#interests" class="nav-link">Interests</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="hero-image fade-in-up">
+      </div>
+      <div class="hero-content fade-in-up">
+        <span class="hero-tagline">Portfolio</span>
+        <h1 class="hero-title">
+          Hi, I'm <span class="hero-name">Alessia De Filippo</span>
+        </h1>
+        <p class="hero-subtitle">
+          Computer Science student passionate about frontend, UI/UX and digital experiences.<br>
+          I love to blend logic, creativity and empathy in every project.
+        </p>
+        <a href="#about" class="btn-primary hero-cta">Discover More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2 class="section-title fade-in-up">About Me</h2>
+    <div class="about-flex">
+      <div class="about-photo fade-in-left">
+        <img src="assets/images/temp.png" alt="Alessia De Filippo" />
+      </div>
+      <p class="section-text fade-in-right">
+        My name is Alessia De Filippo and I’m a Computer Science student at the University of Salerno, Italy.<br><br>
+        I’ve always been fascinated by the intersection of logic and creativity. That’s why I love the frontend and UI/UX world—where design meets usability, and aesthetics meet accessibility.<br><br>
+        I deeply value simplicity, clarity and emotional connection in digital products. I’m inspired by inclusive design, by the possibility of making people’s lives easier through technology, and by the power of storytelling through visual languages.<br><br>
+        I work with empathy and curiosity, always trying to understand users’ real needs and translate them into elegant, intuitive interfaces. I’m proactive, self-taught, and constantly evolving—just like technology itself.
+      </p>
+    </div>
+  </section>
+
+  <section id="services" class="section container">
+    <h2 class="section-title fade-in-up">What I Do</h2>
+    <div class="services-grid">
+      <div class="service-card fade-in-up">
+        <img src="assets/icons/UI_UX.svg" alt="UI/UX" class="service-icon" />
+        <h3>UI/UX Design</h3>
+        <p>Modern, accessible and responsive interfaces. Focus on usability, clarity and emotion.</p>
+      </div>
+      <div class="service-card fade-in-up">
+        <img src="assets/icons/Frontend.svg" alt="Frontend" class="service-icon" />
+        <h3>Frontend Development</h3>
+        <p>HTML, CSS, JavaScript, React. Pixel-perfect, maintainable and interactive web apps.</p>
+      </div>
+      <div class="service-card fade-in-up">
+        <img src="assets/icons/Backend.svg" alt="Backend" class="service-icon" />
+        <h3>Backend & APIs</h3>
+        <p>Node.js, Spring, RESTful APIs. Data, logic and integration for robust applications.</p>
+      </div>
+      <div class="service-card fade-in-up">
+        <img src="assets/icons/Prototype.svg" alt="Prototyping" class="service-icon" />
+        <h3>Prototyping & Testing</h3>
+        <p>Wireframes, Figma, user testing. Iterative design for better products.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2 class="section-title fade-in-up">Tools & Technologies</h2>
+    <div class="skills-categories">
+      <div class="skills-category">
+        <h3>Languages</h3>
+        <div class="skills-grid">
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/java_logo.svg" alt="Java" class="skill-icon" /> Java
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/c_logo.svg" alt="C" class="skill-icon" /> C
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/csharp_logo.svg" alt="C#" class="skill-icon" /> C#
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/dart_logo.svg" alt="Dart" class="skill-icon" /> Dart
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/javascript_logo.svg" alt="JavaScript" class="skill-icon" /> JavaScript
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/html_logo.svg" alt="HTML" class="skill-icon" /> HTML
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/css_logo.svg" alt="CSS" class="skill-icon" /> CSS
+          </div>
+        </div>
+      </div>
+      <div class="skills-category">
+        <h3>Frameworks & Libraries</h3>
+        <div class="skills-grid">
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/react_logo.svg" alt="React" class="skill-icon" /> React
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/flutter_logo.svg" alt="Flutter" class="skill-icon" /> Flutter
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/spring_logo.svg" alt="Spring" class="skill-icon" /> Spring
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/nodejs_logo.svg" alt="Node.js" class="skill-icon" /> Node.js
+          </div>
+        </div>
+      </div>
+      <div class="skills-category">
+        <h3>Databases</h3>
+        <div class="skills-grid">
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/mysql_logo.svg" alt="MySQL" class="skill-icon" /> MySQL
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/mongodb_logo.svg" alt="MongoDB" class="skill-icon" /> MongoDB
+          </div>
+        </div>
+      </div>
+      <div class="skills-category">
+        <h3>Tools & IDEs</h3>
+        <div class="skills-grid">
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/git_logo.svg" alt="Git" class="skill-icon" /> Git
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/github_logo.svg" alt="GitHub" class="skill-icon" /> GitHub
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/postman_logo.svg" alt="Postman" class="skill-icon" /> Postman
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/selenium_logo.svg" alt="Selenium" class="skill-icon" /> Selenium
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/vscode_logo.svg" alt="VS Code" class="skill-icon" /> VS Code
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/intellijidea_logo.svg" alt="IntelliJ IDEA" class="skill-icon" /> IntelliJ IDEA
+          </div>
+        </div>
+      </div>
+      <div class="skills-category">
+        <h3>Other</h3>
+        <div class="skills-grid">
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/figma_logo.svg" alt="Figma" class="skill-icon" /> Figma
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/canva_logo.svg" alt="Canva" class="skill-icon" /> Canva       
+          </div>
+          <div class="skill-item fade-in-up">
+            <img src="assets/icons/unity_logo.svg" alt="Unity" class="skill-icon" /> Unity       
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline" class="section container">
+    <h2 class="section-title fade-in-up">Education & Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-item fade-in-up">
+        <span class="timeline-dot"></span>
+        <div class="timeline-content">
+          <strong>2017 - 2022: High School</strong> 
+          Liceo Linguistico Tito Lucrezio Caro
+          <a href="https://www.liceosarno.edu.it/" target="_blank" rel="noopener">Sito scuola</a>
+          <br>
+          <em>What I learned:</em> Strong foundation in languages (english, spanish, french), communication and cultural understanding.
+        </div>
+      </div>
+      <div class="timeline-item fade-in-up">
+        <span class="timeline-dot"></span>
+        <div class="timeline-content">
+          <strong>2022 - Present: University</strong> 
+          University of Salerno
+          <a href="https://www.unisa.it/" target="_blank" rel="noopener">Sito UNISA</a>
+          <br>
+          <em>What I learned:</em>   Advanced programming, algorithms, software engineering, teamwork, digital innovation, and creative problem solving.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2 class="section-title fade-in-up">Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card fade-in-up">
+        <img src="assets/images/posterworld.jpg" alt="PosterWorld Screenshot" class="project-img" />
+        <div class="project-card-content">
+          <div class="project-header">
+            <img src="assets/icons/pw_logo.svg" alt="PosterWorld Logo" class="project-logo-inline" />
+            <h3>PosterWorld <span class="project-year">(April 2024 - July 2024)</span></h3>
+          </div>
+          <p>
+            <strong>PosterWorld</strong> is an e-commerce demo platform for movie, anime, and game posters. The project demonstrates a complete shopping experience, including product catalog, cart, and checkout.<br>
+            <span class="project-tech">Technologies:</span>
+            <span class="project-tech-logos">
+              <img src="assets/icons/tomcat_logo.svg" alt="TomCat" class="tech-logo" />
+              <img src="assets/icons/java_logo.svg" alt="Java" class="tech-logo" />
+              <img src="assets/icons/mysql_logo.svg" alt="MySQL" class="tech-logo" />
+              <img src="assets/icons/html_logo.svg" alt="HTML" class="tech-logo" />
+              <img src="assets/icons/css_logo.svg" alt="CSS" class="tech-logo" />
+              <img src="assets/icons/javascript_logo.svg" alt="JavaScript" class="tech-logo" />
+            </span>
+          </p>
+          <a href="https://github.com/al3ssiaDeFilippo/PosterWorld" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+      </article>
+      <article class="project-card fade-in-up">
+        <img src="assets/images/bridge.jpg" alt="Bridge Logo" class="project-img" />
+        <div class="project-card-content">
+          <div class="project-header">
+            <img src="assets/icons/bridge_logo.svg" alt="Bridge Logo" class="project-logo-inline" />
+            <h3>Bridge <span class="project-year">(December 2024– January 2025)</span></h3>
+          </div>
+          <p>
+            <strong>Bridge</strong> is a social platform designed to support refugee integration in Italy. It offers courses, job opportunities, a multilingual chatbot, and community features.<br>
+            <span class="project-tech">Technologies:</span> 
+            <span class="project-tech-logos">
+              <img src="assets/icons/spring_logo.svg" alt="Spring" class="tech-logo" />
+              <img src="assets/icons/mongodb_logo.svg" alt="MongoDB" class="tech-logo" />
+              <img src="assets/icons/mysql_logo.svg" alt="MySQL" class="tech-logo" />
+              <img src="assets/icons/react_logo.svg" alt="React" class="tech-logo" />
+              <img src="assets/icons/postman_logo.svg" alt="Postman" class="tech-logo" />
+              <img src="assets/icons/selenium_logo.svg" alt="Selenium" class="tech-logo" />
+            </span>
+          </p>
+          <a href="https://github.com/al3ssiaDeFilippo/Bridge" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+      </article>
+      <article class="project-card fade-in-up">
+        <img src="assets/images/wellyess.jpg" alt="WellYess Logo" class="project-img" />
+        <div class="project-card-content">
+          <div class="project-header">
+            <img src="assets/icons/wellyess_logo.svg" alt="WellYess Logo" class="project-logo-inline" />
+            <h3>WellYess <span class="project-year">(May 2025 - July 2025)</span></h3>
+          </div>
+          <p>
+            <strong>WellYess</strong> is a mobile prototype that helps elderly users manage their health with reminders, health parameters, appointments, and emergency features.<br>
+            <span class="project-tech">Technologies:</span>
+            <span class="project-tech-logos">
+              <img src="assets/icons/flutter_logo.svg" alt="Futter" class="tech-logo" />
+              <img src="assets/icons/dart_logo.svg" alt="Dart" class="tech-logo" />
+              <img src="assets/icons/figma_logo.svg" alt="Figma" class="tech-logo" />
+            </span>
+          </p>
+          <a href="https://github.com/al3ssiaDeFilippo/WellYess" class="project-link" target="_blank">View on GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="interests" class="section container">
+    <h2 class="section-title fade-in-up">Interests & Passions</h2>
+    <div class="interests-list">
+      <div class="interest-card fade-in-up">
+        <img src="assets/images/airplane.png" alt="Travel" class="interest-icon" />
+        <div>
+          <h3>Travel & Cultures</h3>
+          <p>Exploring new countries and cultures. Always curious about the world.</p>
+        </div>
+      </div>
+      <div class="interest-card fade-in-up">
+        <img src="assets/images/music.png" alt="Music" class="interest-icon" />
+        <div>
+          <h3>Music</h3>
+          <p>Listening to a wide range of genres, from pop to indie and rap. Music inspires creativity.</p>
+        </div>
+      </div>
+      <div class="interest-card fade-in-up">
+        <img src="assets/images/game.png" alt="Games" class="interest-icon" />
+        <div>
+          <h3>Games</h3>
+          <p>Passionate about videogames and board games. I love strategy, storytelling and teamwork.</p>
+        </div>
+      </div>
+      <div class="interest-card fade-in-up">
+        <img src="assets/images/interior.png" alt="Design" class="interest-icon" />
+        <div>
+          <h3>Interior Design</h3>
+          <p>Enjoying creative design both in real life and in games (Sims 4). Spaces reflect personality.</p>
+        </div>
+      </div>
+      <div class="interest-card fade-in-up">
+        <img src="assets/images/dog.png" alt="Dog" class="interest-icon" />
+        <div>
+          <h3>Animals</h3>
+          <p>Dog lover, especially my beagle Lucky. Animals teach empathy and joy.</p>
+        </div>
+      </div>
+      <div class="interest-card fade-in-up">
+        <img src="assets/images/translation.png" alt="Languages" class="interest-icon" />
+        <div>
+          <h3>Languages</h3>
+          <p>Learning new languages. Languages open doors to new perspectives.</p>
+        </div>
+      </div>
+    </div>
+    <h3 class="language-title fade-in-up">Spoken Languages</h3>
+    <div class="languages-bars-modern fade-in-up">
+      <!-- Italiano -->
+      <div class="language-bar-row fade-in-up">
+        <img src="assets/icons/italian_logo.svg" alt="Italian flag" class="lang-flag" />
+        <div>
+          <span class="lang-name">Italian</span>
+          <span class="lang-overall-level">Native</span>
+        </div>
+        <div class="criteria-bars">
+          <div class="criteria-bar">
+            <span>Reading</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Writing</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Listening</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Speaking</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- Inglese -->
+      <div class="language-bar-row fade-in-up">
+        <img src="assets/icons/english_logo.svg" alt="English flag" class="lang-flag" />
+        <div>        
+          <span class="lang-name">English</span>
+          <span class="lang-overall-level">Fluent</span>
+        </div>
+        <div class="criteria-bars">
+          <div class="criteria-bar">
+            <span>Reading</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Writing</span>
+            <div class="competence-bar"><div class="competence-bar-fill intermedio">Average</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Listening</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Speaking</span>
+            <div class="competence-bar"><div class="competence-bar-fill intermedio">Average</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- Spagnolo -->
+      <div class="language-bar-row fade-in-up">
+        <img src="assets/icons/spanish_logo.svg" alt="Spanish flag" class="lang-flag" />
+        <div>
+          <span class="lang-name">Spanish</span>
+          <span class="lang-overall-level">Intermediate</span>
+        </div>
+        <div class="criteria-bars">
+          <div class="criteria-bar">
+            <span>Reading</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Writing</span>
+            <div class="competence-bar"><div class="competence-bar-fill intermedio">Average</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Listening</span>
+            <div class="competence-bar"><div class="competence-bar-fill intermedio">Average</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Speaking</span>
+            <div class="competence-bar"><div class="competence-bar-fill intermedio">Average</div></div>
+          </div>
+        </div>
+      </div>
+      <!-- Francese -->
+      <div class="language-bar-row fade-in-up">
+        <img src="assets/icons/french_logo.svg" alt="French flag" class="lang-flag" />
+        <div>
+          <span class="lang-name">French</span>
+          <span class="lang-overall-level">Intermediate</span>
+        </div>
+        <div class="criteria-bars">
+          <div class="criteria-bar">
+            <span>Reading</span>
+            <div class="competence-bar"><div class="competence-bar-fill avanzato">Excellent</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Writing</span>
+            <div class="competence-bar"><div class="competence-bar-fill mediocre">Poor</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Listening</span>
+            <div class="competence-bar"><div class="competence-bar-fill intermedio">Average</div></div>
+          </div>
+          <div class="criteria-bar">
+            <span>Speaking</span>
+            <div class="competence-bar"><div class="competence-bar-fill mediocre">Poor</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2 class="section-title fade-in-up">Contact</h2>
+    <div class="contact-icons">
+      <a href="mailto:alessiadefilippo04@gmail.com" target="_blank" aria-label="Email">
+        <img src="assets/icons/gmail_logo.svg" alt="Gmail" class="contact-icon" />
+      </a>
+      <a href="https://github.com/al3ssiaDeFilippo" target="_blank" aria-label="GitHub">
+        <img src="assets/icons/github_logo.svg" alt="GitHub" class="contact-icon" />
+      </a>
+      <a href="https://instagram.com/ale._ss1a_" target="_blank" aria-label="Instagram">
+        <img src="assets/icons/instagram_logo.svg" alt="Instagram" class="contact-icon" />
+      </a>
+      <a href="#" aria-label="LinkedIn" style="pointer-events: none; opacity: 0.5;">
+        <img src="assets/icons/linkedin_logo.svg" alt="LinkedIn" class="contact-icon" />
+      </a>
+    </div>
+    <div class="contact-links">
+      <p>📄 <strong>CV QR Code:</strong> <img src="cv-qr.png" alt="QR Code" style="max-width: 120px; margin-top: 1rem;" /></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Alessia De Filippo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
